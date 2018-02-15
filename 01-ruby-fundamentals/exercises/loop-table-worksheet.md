@@ -10,7 +10,7 @@ end
 ```
 
 | loop count | value of x  | new value:  |
-|---|---|---|
+|:---:|:---:|:---:|
 | 1 | 2  | 11 |
 | 2 | 5  | 17 |
 | 3 | 8  | 23 |
@@ -26,7 +26,7 @@ end
 end
 ```
 | loop count | value of critter | output |
-|---|---|---|
+|:---:|:---:|:---|
 | 1 | "kittens" | "I am as amazing as kittens!" |
 | 2 | "meerkats" | "I am as amazing as meerkats!" |
 | 3 | "red pandas" | "I am as amazing as red pandas!" |
@@ -49,7 +49,7 @@ a.each do |letter|
 end
 ```
 | loop count | value of letter | value of s1 | value of s2 | output |
-|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|
 | 1 | "m" | "m" | "" | "m" |
 | 2 | "p" | "m" | "p" | "p" |
 | 3 | "e" | "me" | "p" | "me" |
