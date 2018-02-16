@@ -10,13 +10,21 @@ The user of a deck of cards should be able to shuffle the cards as well as deal 
 ## Design
 |Questions:| |
 |:---------|:---------------|
-|How does a deck relate to a Game?| 
-||How does a card relate to a deck?| 
-||What properties would a Game have?| 
-||What properties does a card have?| 
-|
+|How does a deck relate to a Game?| It is a separate class that the class Game will call upon to initialize |
+|How does a card relate to a deck?| A card is an object created by a factory by suit, that the deck calls upon to initialize a deck object|
+|What properties would a Game have?| A game would have the game logic for the game, it would have a method to deal cards, to add the value of specific cards, to let the user hit for an additional card, and to make the dealer hit if it is below a certain value and stay if it is over that value, as well as determine the win condition based on whether the hand went over or was higher|
+|What properties does a card have?| a suit and a numerical value (Jack - Ace have pictures -- maybe ascii -- in addition to values) |
+
 
 ## Complete
 - Determine which classes you would create
   - For each class, define the attributes and methods you would utilize
   - Method definitions should include any parameters you would be using as well as return values
+
+| Class | Attributes | Methods|
+|:----:|:------:|:------:|
+|Card| @face, @points, @suit | #self.new(hearts, spades, clubs, diamonds) return 13 cards per suit, 2 - Ace |
+|Deck| @cards | #shuffle(times) : return randomized deck|
+|Game| @deck @dealer @player | #deal(num_of_players) - includes dealer, #score(hand): return top score, |
+|Dealer| @hand @money | #deal(card): return 2 top cards #deal_hit(deal): return 1 top card, #hit(deal) return self.1 top card, #stay: return - current hand for scoring|  
+|Player| @hand @money | #hit(deal), #stay: return - current hand for scoring, #split(hand): return current hand split to two hands, deal 1 top card, #bet(wager): return float, #win(bet): return increment total money|
