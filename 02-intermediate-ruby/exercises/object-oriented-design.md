@@ -8,11 +8,13 @@ We need to design a system that would allow us to utilize a deck of cards in a [
 The user of a deck of cards should be able to shuffle the cards as well as deal cards. To deal, the user should be able to specify the number of players who will be dealt a specified number of cards.
 
 ## Design
-Questions:
-- How does a deck relate to a Game?
-- How does a card relate to a deck?
-- What properties would a Game have?
-- What properties does a card have?
+|Questions:| |
+|:---------|:---------------|
+|How does a deck relate to a Game?| 
+||How does a card relate to a deck?| 
+||What properties would a Game have?| 
+||What properties does a card have?| 
+|
 
 ## Complete
 - Determine which classes you would create
