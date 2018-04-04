@@ -38,3 +38,5 @@ Orders will have
 2. Create the appropriate models in a sample Rails application make sure to have the appropriate belongs_to and has_many associations.
 
 Be ready to talk about your choices.
+
+![ERD Practice Image](https://github.com/kseastman/textbook-curriculum/commit/090c53d87267b85c7ef7cc66bb261afa1c5ab670#diff-91f4effb2931277f8a831a19d96c4505)
