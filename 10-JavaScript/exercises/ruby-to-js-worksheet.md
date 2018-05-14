@@ -121,7 +121,7 @@ Each problem stands alone. Variables from previous problems do not exist.
     while (i < 3) {
     console.log('hi');
     i++;
-  };
+    };
     console.log('bye');
 
     ```
